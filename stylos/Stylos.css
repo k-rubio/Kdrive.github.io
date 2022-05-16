@@ -1,0 +1,55 @@
+*{
+	 padding: 0px;
+	 margin: 0px;
+	 font-family: Century Gothic;
+}
+body{
+	background-image: url(../img/fondo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+header {
+	padding: 20px;
+	background:rgb(00,00,00,0.30);
+	
+}
+#date {
+	width:50px;
+}
+
+h2{
+	color: white;
+}
+h5{
+	color: white;
+}
+h7{
+	color: white;
+}
+h1{
+text-align: center;	
+color: white;
+}
+article{
+	margin-top: 100px;
+
+	margin-left: 400px;
+	margin-right: 400px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background:rgb(00,00,00,0.30);
+	text-align: center;
+
+}
+input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.home {
+	display:flex;
+	flex-wrap: wrap;
+}
+.in-flex{
+	flex: 1;
+	min-width: 300px;
+}
